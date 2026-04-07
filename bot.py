@@ -7,8 +7,7 @@ from datetime import datetime
 import pytz
 
 # ================= K O N F I G U R A S I =================
-# KITA TIDAK LAGI MENULIS TOKEN DI SINI (BIAR AMAN)
-# Token akan diambil otomatis dari GitHub Secrets
+
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
